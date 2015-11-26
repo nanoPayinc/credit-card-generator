@@ -1,5 +1,9 @@
 var pseudoRandom = Math.random;
 
+var beerStorePrefixList = new Array(
+  "5134"
+);
+
 var visaPrefixList = new Array(
     "4539",
     "4556",
