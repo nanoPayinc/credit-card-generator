@@ -144,6 +144,10 @@ function credit_card_number(prefixList, length, howMany) {
  * @type {Array}
  */
 module.exports.Schemes = {
+    "BeerStore": {
+        prefixList: beerStorePrefixList,
+        digitCount:16
+    },
     "VISA": {
         prefixList: visaPrefixList,
         digitCount: 16
